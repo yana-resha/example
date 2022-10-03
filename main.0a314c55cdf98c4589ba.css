@@ -179,10 +179,11 @@ button {
   position: absolute;
   top: 55px;
   right: 0;
-  padding: 5px;
+  padding: 0px;
   visibility: hidden;
   min-width: 200px;
   max-width: auto;
+  overflow: hidden;
 }
 
 .choise-div {
@@ -524,6 +525,18 @@ button {
 .bottom-dropdown {
   left: 0;
 }
+
+.close-button {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 30px;
+  background-color: #9999;
+  border: 1px solid transparent;
+}
+
+.list-dropdown {
+  padding: 5px;
+}
 #calendar2 {
 
 	width: 200px;
@@ -602,7 +615,7 @@ label + .custom-checkbox {
 
 .custom-checkbox:checked+label::before {
   content: '';
-  background-image: url(/6211380b94795cd8dce7.svg);
+  background-image: url(./6211380b94795cd8dce7.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 6px;
